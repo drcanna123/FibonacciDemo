@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.dcanna.ivedixfibdemo.Activities.MainActivity">
+
+    <!--
+
+    Styles are always used where possible for future use
+
+    -->
+
+    <ImageView
+        android:src="@drawable/ivedix_logo"
+        style="@style/imageview_ivedix_logo" />
+
+    <TextView
+        android:id="@+id/txt_fibNum"
+        android:text="@string/fib_placeholder"
+        style="@style/textview_fibonacci_number" />
+
+    <TextView
+        android:id="@+id/txt_bfibNum_lbl"
+        android:text="@string/fib_label"
+        style="@style/textview_fibonacci_label" />
+
+    <TextView
+        android:id="@+id/txt_fibIndex"
+        android:layout_below="@+id/txt_bfibNum_lbl"
+        android:text="@string/index_label_placeholder"
+        style="@style/textview_index_label" />
+
+
+</RelativeLayout>

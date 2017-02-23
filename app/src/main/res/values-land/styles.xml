@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="textview_fibonacci_number">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:textSize">150sp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/ivedixOrange</item>
+        <item name="android:shadowDy">15</item>
+        <item name="android:shadowDx">15</item>
+        <item name="android:shadowRadius">15</item>
+        <item name="android:shadowColor">@color/ivedixOrange</item>
+    </style>
+
+    <style name="textview_fibonacci_label">
+        <item name="android:layout_below">@+id/txt_fibNum</item>
+        <item name="android:textColor">@color/ivedixOrange</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowColor">@color/ivedixOrange</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="imageview_ivedix_logo">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+</resources>

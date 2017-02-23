@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Theme has been customized to Ivedix color scheme -->
+        <item name="colorPrimary">@color/ivedixOrange</item>
+        <item name="colorPrimaryDark">@color/IvedixDarkOrange</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="textview_fibonacci_number">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:textSize">250sp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:textColor">@color/ivedixOrange</item>
+        <item name="android:shadowDy">10</item>
+        <item name="android:shadowDx">10</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowColor">@color/ivedixOrange</item>
+    </style>
+
+    <style name="textview_fibonacci_label">
+        <item name="android:layout_below">@+id/txt_fibNum</item>
+        <item name="android:textColor">@color/ivedixOrange</item>
+        <item name="android:shadowDy">10</item>
+        <item name="android:shadowDx">10</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:shadowColor">@color/ivedixOrange</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="imageview_ivedix_logo">
+        <item name="android:layout_margin">45dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
